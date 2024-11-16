@@ -123,7 +123,7 @@ modalThumbnails = [...modalThumbnails];
 modalThumbnails.forEach(modalThumbnail => {
     modalThumbnail.addEventListener('click', event => {
         console.log(event.target.id.slice(-1));
-        modalImageContainer.style.backgroundImage = `url('../images/image-product-${event.target.id.slice(-1)}.jpg')`;
+        modalImageContainer.style.backgroundImage = `url('./images/image-product-${event.target.id.slice(-1)}.jpg')`;
     });
 });
 
