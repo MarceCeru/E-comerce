@@ -423,7 +423,7 @@ body {
   content: url("../images/icon-close-orange.svg");
 }
 .modal-gallery__image-conteiner {
-  background-image: url("../images/image-product-1.jpg");
+  background-image: url("./images/image-product-1.jpg");
   height: 446px;
   background-size: cover;
   border-radius: 16px;
