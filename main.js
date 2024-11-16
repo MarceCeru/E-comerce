@@ -110,7 +110,7 @@ thumbnails = [...thumbnails];
 thumbnails.forEach(thumbnail => {
     thumbnail.addEventListener('click', event => {
         console.log(event.target.id);
-        imageContainer.style.backgroundImage = `url('../images/image-product-${event.target.id}.jpg')`;
+        imageContainer.style.backgroundImage = `url('./images/image-product-${event.target.id}.jpg')`;
     });
 });
 
